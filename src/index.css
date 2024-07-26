@@ -1,17 +1,21 @@
-html, body {
+html, body,#root {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     font-family: Arial, sans-serif;
   }
   body {
     display: flex;
     height: 100%;
+    width: 100%;
     background-color: #f15050;
+    justify-content: center;
+    align-items: center; 
   }
   .app {
     display: flex;
     justify-content: flex-end; /* Align content to the right */
-    align-items: center; /* Center content vertically */
+    height: 100%;
     width: 100%;
   }
