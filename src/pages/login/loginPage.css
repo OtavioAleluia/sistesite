@@ -1,32 +1,19 @@
-.container{
-  width: 100%;
-  max-width: 35%;
-  height: 100%;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content:center;
-  display: flex;
-  flex-direction: column;
-
-
+.loginScreen{
+    height: 100vh;
 }
-.text{
-  margin-bottom: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  
+.logo-topo{
+    width: 400px;
 }
-.submmit-container{
-  align-items: center;
-  justify-content: center;
-  display: flex;
+.forgot-pw{
+    font-size: .7rem;
 }
-.input{
-  display: flex;
-  margin: 5%;
+.submit-btn{
+    cursor: pointer;
+    background-color: #0099f1 !important;
+    transition: 200ms;
+}
+.submit-btn:hover{
+    box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.26);
+    background-color: #00b9f1;
+    transition: 500ms;
 }
