@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Home = () => {
+function Home() {
   return (
     <div>
-      <h1>PAGINA PÓS LOGIN</h1>
+      <h1>teste</h1>
     </div>
   )
 }
 
 export default Home
+
