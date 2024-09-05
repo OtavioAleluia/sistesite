@@ -1,12 +1,11 @@
-import Login, {LoginPage} from "./pages/login";
+import {Outlet} from "react-router-dom"
 import './index.css'
-import AppRouters from "./router";
 function App() {
   return (
-    <div className="app">
-      <AppRouters/>
-    </div>
-    
+    <Nav>barra de navegacao</Nav>
+    <div className="app"> </div>
+    <Outlet />
+    <footer> footer</footer>
   );
 }
 
