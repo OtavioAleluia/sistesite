@@ -5,7 +5,7 @@ import App from "./App";
 import Clientes from "./pages/clients";
 
 
-const router = createBrowserRouter([
+const routes = createBrowserRouter([
     {path:"/login",
     element:<Login />
     },
@@ -17,13 +17,13 @@ const router = createBrowserRouter([
             
     {
     path: "/home",
-    Element: <App />,
-    children:{
-        path: "/clients",
+    element: <App />,
+    children:[{
+        path: "clients",
         element: <Clientes/>
-    }
+    }]
     } 
 ])
 
-export default router
+export default routes
     

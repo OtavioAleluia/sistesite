@@ -17,7 +17,7 @@
     background-color: #00b9f1;
     transition: 500ms;
 }
-@media (min-width:640px){
+@media (min-width:700px){
     .loginScreen{
         background: url('../../assets/background-login.png');
     }
